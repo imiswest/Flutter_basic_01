@@ -59,7 +59,7 @@ class MyHomePage extends StatelessWidget {
 
       body: Container(
 
-          /// Container 위젯으로 감싸는 이유 : padding, color(배경색), width&height 프로퍼티가 가능
+          /// Container 위젯으로 감싸는 이유 : padding, color(배경색), width&height, decoration 프로퍼티가 가능
           /// Container은 child가 필수인 위젯
           /// (Text 위젯에는 padding 프로퍼티처럼 여백을 주는 기능이 없음)
           /// (Padding 위젯도 있음. 하지만 Padding 위젯은 프로퍼티로 padding과 child만이 가능)
